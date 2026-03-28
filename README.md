@@ -25,14 +25,7 @@ This project focuses on predicting product sales for food items sold at various 
 ### Prerequisites
 - Python 3.7+
 - Jupyter Notebook
-- Required packages (see `requirements.txt`)
 
-### Installation
-```bash
-git clone https://github.com/Dounia-Awni/Prediction-Of-Product-Sales.git
-cd Prediction-Of-Product-Sales
-pip install -r requirements.txt
-```
 
 ### Running the Project
 1. Launch Jupyter Notebook: `jupyter notebook`
@@ -45,17 +38,14 @@ Prediction-Of-Product-Sales/
 ├── notebooks/              # Jupyter notebooks for analysis and modeling
 ├── data/                   # Dataset files
 ├── README.md              # This file
-└── requirements.txt       # Python dependencies
 ```
 
 ## 📈 Results
-- **Best Model**: [Update with your best performing model]
-- **Performance Metrics**: [Add R² score, RMSE, or other relevant metrics]
+- **Best Model**: 
+- **Performance Metrics**:
 
 ## 🔍 Key Findings
-- [Add your main insights from the analysis]
-- [Add patterns or trends discovered]
-- [Add recommendations for business stakeholders]
+-
 
 ## 📦 Dependencies
 Key packages used in this project:
@@ -63,8 +53,6 @@ Key packages used in this project:
 - scikit-learn - Machine learning algorithms
 - matplotlib & seaborn - Data visualization
 - numpy - Numerical computing
-
-See `requirements.txt` for complete list and versions.
 
 ## 📄 License
 This project is open source and available under the MIT License.
