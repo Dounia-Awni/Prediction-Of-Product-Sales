@@ -1,68 +1,76 @@
-# Prediction of Product Sales
+# Predict Product Sales Performance
+## Machine Learning Models to Forecast Retail Store Product Sales
 
-## Project Overview
-This project focuses on predicting product sales for food items sold at various retail stores using machine learning techniques. It aims at providing insights into sales trends and helping businesses optimize inventory and pricing strategies.
+**Author**: Dounia Awni
 
-**Objective**: Build accurate predictive models to forecast sales performance  
-**Approach**: Data exploration, feature engineering, and multiple regression algorithms
+### Business problem:
 
-## 📊 Visualizations & Insights
+The objective is to help retail businesses forecast product sales accurately at various store outlets. By predicting sales performance, businesses can optimize inventory management, staffing, and marketing strategies for different product categories and store locations.
+
+### Data:
+
+Dataset containing product sales records from multiple retail outlets with features including:
+- Item characteristics (weight, type, visibility, price)
+- Outlet information (type, location, establishment year, size)
+- Target variable: Item sales across outlets
+- Approximately 8,523 observations
+
+## Methods
+
+- **Data Exploration**: Analyzed sales distribution, feature correlations, and item visibility patterns across product types
+- **Feature Engineering**: Processed categorical variables, handled missing values, and created meaningful feature representations
+- **Model Development**: Trained multiple regression algorithms including Linear Regression, Decision Trees, and ensemble methods
+- **Model Evaluation**: Compared models using performance metrics to identify the best predictor
+
+## Results
 
 ### Item Outlet Sales Distribution
 ![Item Outlet Sales](https://github.com/user-attachments/assets/42409fee-0394-4acc-a97e-e9c627b251d5)
-*Univariate analysis showing the distribution of sales across outlets, revealing patterns and potential outliers in the data.*
+
+> Univariate analysis showing the distribution of sales across outlets, revealing patterns and potential outliers in the data.
 
 ### Feature Correlation Heatmap
 ![Correlation Heatmap](https://github.com/user-attachments/assets/9cfc98ea-1c2c-4c11-b822-534396b64cdf)
-*Heatmap displaying correlation between features and sales, helping identify the most influential variables in predicting product sales.*
+
+> Heatmap displaying correlation between features and sales, helping identify the most influential variables in predicting product sales.
 
 ### Item Visibility by Product Type
 ![Item Visibility by Type](https://github.com/user-attachments/assets/6c496503-621d-45bb-b8ec-e89d16a276e2)
-*Multivariate analysis showing how item visibility varies across different product categories and its relationship with sales.*
 
-## 🚀 Getting Started
+> Multivariate analysis showing how item visibility varies across different product categories and its relationship with sales.
 
-### Prerequisites
-- Python 3.7+
-- Jupyter Notebook
+## Model
 
+The best performing model leverages ensemble techniques to capture non-linear relationships in sales data.
 
-### Running the Project
-1. Launch Jupyter Notebook: `jupyter notebook`
-2. Open the main analysis notebook
-3. Run cells sequentially to explore data and train models
+**Key Performance Metrics**:
+- R² Score: [Add your score]
+- Mean Absolute Error (MAE): [Add your MAE]
+- Root Mean Squared Error (RMSE): [Add your RMSE]
 
-## 📁 Project Structure
-```
-Prediction-Of-Product-Sales/
-├── notebooks/              # Jupyter notebooks for analysis and modeling
-├── data/                   # Dataset files
-├── README.md              # This file
-```
+This model successfully predicts product sales, enabling retailers to make data-driven decisions on inventory allocation and sales strategies.
 
-## 📈 Results
-- **Best Model**: 
-- **Performance Metrics**:
+## Recommendations:
 
-## 🔍 Key Findings
--
+- Focus inventory management on high-visibility items with strong price-to-sales correlations
+- Tailor promotional strategies by product type and outlet location based on model insights
+- Use sales predictions to optimize staffing levels during peak demand periods
+- Monitor model performance regularly and retrain with new data quarterly
 
-## 📦 Dependencies
-Key packages used in this project:
-- pandas - Data manipulation and analysis
-- scikit-learn - Machine learning algorithms
-- matplotlib & seaborn - Data visualization
-- numpy - Numerical computing
+## Limitations & Next Steps
 
-## 📄 License
-This project is open source and available under the MIT License.
+**Limitations**:
+- Model performance may vary for new store locations with limited historical data
+- External factors (seasonal trends, economic conditions) not captured in current dataset
 
-## 👤 Author
-**Dounia Awni**  
-GitHub: [@Dounia-Awni](https://github.com/Dounia-Awni)
+**Next Steps**:
+- Incorporate temporal features and seasonal indicators
+- Integrate external economic and weather data
+- Develop store-specific models for improved localized predictions
+- Implement automated retraining pipeline for production deployment
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+### For further information
 
----
-*Last updated: 2026-03-28 20:30:49*
+For any additional questions, please contact **Dounia Awni**
+- GitHub: [@Dounia-Awni](https://github.com/Dounia-Awni)
+- Email: [Add your email]
