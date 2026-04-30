@@ -1,7 +1,7 @@
 # Predict Product Sales Performance
 ## Machine Learning Models to Forecast Retail Store Product Sales
 
-**Author**: Dounia Awni
+**Author**: Dounia Nassar
 
 ### Business problem:
 
@@ -44,9 +44,9 @@ Dataset containing product sales records from multiple retail outlets with featu
 The best performing model leverages ensemble techniques to capture non-linear relationships in sales data.
 
 **Key Performance Metrics**:
-- R² Score: [Add your score]
-- Mean Absolute Error (MAE): [Add your MAE]
-- Root Mean Squared Error (RMSE): [Add your RMSE]
+- R² Score: [0.589]
+- Mean Absolute Error (MAE): [739.759]
+- Root Mean Squared Error (RMSE): [1,064.460]
 
 This model successfully predicts product sales, enabling retailers to make data-driven decisions on inventory allocation and sales strategies.
 
@@ -73,4 +73,4 @@ This model successfully predicts product sales, enabling retailers to make data-
 
 For any additional questions, please contact **Dounia Awni**
 - GitHub: [@Dounia-Awni](https://github.com/Dounia-Awni)
-- Email: [Add your email]
+- Email: [dodonassar901@gmail.com]
