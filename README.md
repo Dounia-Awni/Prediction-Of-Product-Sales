@@ -5,7 +5,7 @@
 
 ### Business problem:
 
-The objective is to help retail businesses forecast product sales accurately at various store outlets. By predicting sales performance, businesses can optimize inventory management, staffing, and marketing strategies for different product categories and store locations.
+The objective is to help retail businesses forecast product sales accurately at various store outlets. By predicting sales performance, businesses can optimize inventory management, staffing, and mark[...]
 
 ### Data:
 
@@ -39,12 +39,11 @@ Dataset containing product sales records from multiple retail outlets with featu
 
 > Multivariate analysis showing how item visibility varies across different product categories and its relationship with sales.
 
-### Linear Regression Coefficients Plot:
-![Linear Regression Coefficients Plot:](<img width="583" height="470" alt="features_coefficientpng" src="https://github.com/user-attachments/assets/e1905892-3a5c-4ab2-8385-c34198745db5" />
-)
+### Linear Regression Coefficients Plot
+![Linear Regression Coefficients Plot](https://github.com/user-attachments/assets/e1905892-3a5c-4ab2-8385-c34198745db5)
 
->  This plot shows the linear relationship between each feature and Item_Outlet_Sales. Item_MRP has a strong positive influence, meaning higher prices generally lead to higher sales. Outlet_Type_Supermarket Type3 also shows a significant positive impact, while Outlet_Type_Grocery Store has a very strong negative impact, indicating these store types tend to have much lower sales compared to others.
-> 
+> This plot shows the linear relationship between each feature and Item_Outlet_Sales. Item_MRP has a strong positive influence, meaning higher prices generally lead to higher sales. Outlet_Type_S[...]
+
 ## Model
 
 The best performing model leverages ensemble techniques to capture non-linear relationships in sales data.
