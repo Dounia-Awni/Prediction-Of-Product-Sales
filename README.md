@@ -5,7 +5,7 @@
 
 ### Business problem:
 
-The objective is to help retail businesses forecast product sales accurately at various store outlets. By predicting sales performance, businesses can optimize inventory management, staffing, and mark[...]
+The objective is to help retail businesses forecast product sales accurately at various store outlets. By predicting sales performance, businesses can optimize inventory management, staffing, and marketing efforts.
 
 ### Data:
 
@@ -42,7 +42,12 @@ Dataset containing product sales records from multiple retail outlets with featu
 ### Linear Regression Coefficients Plot
 ![Linear Regression Coefficients Plot](https://github.com/user-attachments/assets/e1905892-3a5c-4ab2-8385-c34198745db5)
 
-> This plot shows the linear relationship between each feature and Item_Outlet_Sales. Item_MRP has a strong positive influence, meaning higher prices generally lead to higher sales. Outlet_Type_S[...]
+> This plot shows the linear relationship between each feature and Item_Outlet_Sales. Item_MRP has a strong positive influence, meaning higher prices generally lead to higher sales. Outlet_Type_S demonstrates the impact of outlet classification on sales predictions.
+
+### Feature Importances
+![Feature Importances](https://github.com/user-attachments/assets/placeholder-feature-importances)
+
+> Feature importance plot from the ensemble model, displaying the relative contribution of each feature in predicting product sales. This helps identify which variables have the greatest influence on the model's predictions.
 
 ## Model
 
