@@ -78,9 +78,3 @@ This model successfully predicts product sales, enabling retailers to make data-
 - Integrate external economic and weather data
 - Develop store-specific models for improved localized predictions
 - Implement automated retraining pipeline for production deployment
-
-### For further information
-
-For any additional questions, please contact **Dounia Awni**
-- GitHub: [@Dounia-Awni](https://github.com/Dounia-Awni)
-- Email: [dodonassar901@gmail.com]
